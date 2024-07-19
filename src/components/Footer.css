@@ -1,0 +1,38 @@
+/* Footer.css */
+:root {
+    --black: #191414;
+    --green: #1db954;
+    --white: #ffffff;
+    --grey: #989898;
+  }
+  
+  .site-footer {
+    background-color: var(--black);
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: var(--grey);
+    text-align: center;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    color: var(--white);
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: var(--green);
+  }
+  
+  .social-icons i {
+    margin: 0;
+  }
+  

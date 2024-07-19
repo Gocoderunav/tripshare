@@ -1,0 +1,82 @@
+/* card.css */
+.card-container {
+  display: flex; /* Use flexbox to arrange cards in a row */
+  flex-wrap: wrap; /* Allow wrapping to next line if cards overflow */
+  gap: 10px; /* Space between cards */
+  padding: 14px; /* Optional padding around the container */
+  justify-content: center; /* Center cards horizontally */
+  /* top: 65px; 
+   position: absolute; */
+}
+
+.card {
+  width: 18rem; /* Fixed width for each card */
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure contents don't overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: box-shadow 0.3s ease; /* Smooth hover effect */
+  position: relative; /* Needed for positioning delete icon */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.card-img-top {
+  height: 200px;
+  width: 100%; /* Adjust image height */
+  object-fit: cover; /* Ensure image covers entire area */
+}
+
+.card-body {
+  padding: 20px; /* Padding inside the card */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Font size for the card title */
+  margin-bottom: 10px; /* Space below the title */
+  color: black; /* Set username color to black */
+}
+
+.card-text {
+  font-size: 1rem; /* Font size for the card text */
+  color: #666; /* Text color */
+  margin-bottom: 15px; /* Space below the text */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Button background color */
+  border-color: #007bff; /* Button border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker background on hover */
+  border-color: #0056b3; /* Darker border on hover */
+}
+
+/* Delete Icon */
+.delete-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #ff4d4d; /* Red color for delete icon */
+  cursor: pointer;
+  z-index: 10; /* Ensure it is above other elements */
+}
+
+.delete-icon:hover {
+  color: #e60000; /* Darker red on hover */
+}
+
+/* Toastify CSS - You can also customize Toastify styles if needed */
+.Toastify__toast--success {
+  background: #28a745; /* Green color for success */
+}
+
+.Toastify__toast--error {
+  background: #dc3545; /* Red color for error */
+}
+
+

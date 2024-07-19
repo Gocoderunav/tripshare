@@ -1,0 +1,5 @@
+/* Add this to your App.css or a similar global CSS file */
+.content {
+  padding-top: 180px; /* Adjust this value to the height of your navbar */
+}
+

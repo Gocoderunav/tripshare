@@ -1,0 +1,48 @@
+/* /* createform.css */
+
+.scroll-menu {
+    max-width: 600px; /* Adjust the maximum width as per your design */
+    margin: 0 auto; /* Center align the form */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow-y: auto; /* Enable scrolling if content exceeds height */
+  }
+  
+  .entry {
+    margin-bottom: 20px;
+  }
+  
+  .entry input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color:black;
+  }
+  
+  .icon {
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .icon:hover {
+    color: #0056b3;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #0e0d0d;
+    border-radius: 4px;
+  }
+  
+  textarea:focus,
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+ 

@@ -1,0 +1,39 @@
+/* login.css */
+.login-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.google-signin-button {
+    position: absolute;
+    top: 90.4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285F4;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.google-signin-button:hover {
+    background-color: #357ae8;
+}
+
+.google-signin-button:active {
+    transform: scale(0.95);
+}
+
+.google-icon {
+    margin-right: 10px; /* Adding margin to the right of the icon */
+    font-size: 20px; /* Adjusting the icon size if needed */
+}

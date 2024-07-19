@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+
+.home-container {
+    display: flex;
+  }
+  
+  .sidebar-container {
+    width: 20%; /* Adjust the width as needed */
+  }
+  
+  .card-container {
+    width: 100%; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-card {
+    background-color: #3d6d9d;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
